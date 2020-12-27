@@ -1,0 +1,7 @@
+version : "3.8"
+services:
+         housy-backend:
+                     container_name: housy-backend
+                     image: housybackend:1
+                     ports:
+                           - 5000:5000
